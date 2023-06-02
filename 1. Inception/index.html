@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <!-- <div id="header"><h1>Header</h1></div> -->
+    <div id="root">
+      Not Rendered
+      <!-- the title (Hello World only render for 1 millisec) -->
+      <!-- <h1 id="title">Hello World</h1> -->
+    </div>
+    <!-- <div id="footer"><h1>Footer</h1></div> -->
+
+    <!-- Using HTML Code -->
+    <!-- <div id="root">
+      <h1>Hello World from h1 tag</h1>
+    </div> -->
+
+    <!-- <script>
+    // Creating h1 tag using javascript
+    const heading = document.createElement("h1");
+    heading.innerHTML = "Hello Everyone from Javascript";
+
+    // to add the h1 element in the root
+    const root = document.getElementById("root");
+
+    root.appendChild(heading);
+  </script> -->
+
+    <!-- React CDN Link -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- Create h1 tag using react -->
+    <!-- Now its in App.js -->
+    <script src="./App.js"></script>
+  </body>
+</html>
